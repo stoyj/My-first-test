@@ -1,0 +1,59 @@
+
+/* Base button style */
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Primary button style */
+.btn.primary {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn.primary:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.btn.primary:active {
+  background-color: #3e8e41;
+}
+
+/* Secondary button style */
+.btn.secondary {
+  background-color: #008CBA;
+  color: white;
+}
+
+.btn.secondary:hover {
+  background-color: #007bb5;
+  transform: scale(1.05);
+}
+
+.btn.secondary:active {
+  background-color: #006f8e;
+}
+
+/* Disabled button style */
+.btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Optional additional styles */
+.btn.small {
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.btn.large {
+  font-size: 18px;
+  padding: 12px 24px;
+}
